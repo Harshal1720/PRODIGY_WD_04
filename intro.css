@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;500&family=Merriweather:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+}
+.sidebar{
+    /* background-color:black; */
+    background-color: grey;
+    width:434px ;
+    font-family: 'Kalnia', serif;
+    font-family: 'Merriweather', serif;
+    /* height: 100vh; */
+
+    
+
+}
+.sidebar nav{
+    padding: 55px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+   
+     color: white;
+}
+.main{
+    width: 90vw;
+    height: auto;
+}
+.container{
+    display: flex;
+
+}
+.introcontainer{
+    margin: 30px 30px;
+    /* color: rgb(20, 13, 13); */
+    font-size: 20px;
+
+}
+.main{
+    /* background-image: url('image2.png'); */
+    /* background-size:1300px; */
+    /* background-position: fixed; */
+    /* opacity: 0.5; */
+    background-color: rgb(242, 243, 243);
+
+}
+.about{
+    /* color: rgb(232, 236, 240); */
+    margin: 8px;
+    padding: 8px;
+}
+.about p{
+        padding: 15px;
+}
+
+.about h2,h4 {
+    padding: 5px;
+}
+
+
+
+.skills{
+    margin: 8px;
+    padding: 8px;   
+}
+.skills 
+.proj{
+    
+}
+.proj li{
+    margin: 8px;
+    padding: 8px; 
+} 
+.score {
+    background-color: #3fa4f1;
+    height: 1.3rem;
+    border-radius: 10px;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;500&family=Merriweather:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+}
+.sidebar{
+    background-color: grey;
+    font-family: 'Kalnia', serif;
+    font-family: 'Merriweather', serif;
+    width:350px;
+    height:1000px;
+    /* background: rgb(11,21,20); */
+/* background: linear-gradient(90deg, rgba(11,21,20,1) 14%, rgba(10,131,162,1) 99%); */
+
+}
+.sidebar nav{
+    padding: 55px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(242, 238, 238);
+
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: auto;
+}
+.container{
+    display: flex;
+}
+
+
+
+
+.blogcontainer{
+    height: auto;
+    background-color: rgb(234, 241, 241);
+    padding-left: 10px;
+    font-size: 20px;
+    background: rgb(106,206,231);
+background: linear-gradient(90deg, rgba(106,206,231,1) 57%, rgba(11,21,20,1) 100%);
+color: rgb(223, 237, 237);
+}
+.blogcontainer h2{
+    padding: 20px;
+    color: #000;
+}
+.blogcontainer h4{
+    padding: 10px;
+    color: #000;
+}
+.blogcontainer p{
+    padding: 20px;
+}
